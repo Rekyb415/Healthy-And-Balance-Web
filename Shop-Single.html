@@ -24,7 +24,7 @@
   <!-- --------------- Main Css ---------------- -->
   <link rel="stylesheet" href="./assets/css/style.css" />
   <link rel="stylesheet" href="./assets/css/shop-single.css" />
-  <title>Organick | Shop-Single </title>
+  <title>Sản Phẩm</title>
 </head>
 
 <body>
@@ -44,7 +44,7 @@
       </div>
 
       <div class="product__info">
-        <p class=" product__name single-name">Bông cải xanh Calabrese</p>
+        <p class=" product__name single-name">Hạt dẻ</p>
         <div class=" product__rating single">
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -56,12 +56,10 @@
           <p class="product__discount">484.000 VNĐ</p>
           <p class="product__price">315.000 VNĐ</p>
         </div>
-        <p>Đây là một đoạn văn bản mẫu trong ngành in ấn và đặt chữ. Lorem đã ngừng trở thành văn bản mẫu tiêu chuẩn của
-          ngành từ thập kỷ 1500,
-          khi một máy in không xác định đã sử dụng một bản in mẫu.</p>
+        <p>Hạt dẻ </p>
 
         <div class="product__detail">
-          <p>Quantity :</p>
+          <p>Số lượng :</p>
           <span class="qty__btn">
             <button class="qty-count qty-count--minus" data-action="minus" type="button">-</button>
             <input class="product-qty" type="number" name="product-qty" min="0" max="10" value="1">
@@ -83,15 +81,20 @@
         </div>
         <div class="tabs-body">
           <div class="tab-content active" data-tab="description">
-            <p>Chào mừng đến với thế giới của tự nhiên và hữu cơ. Ở đây bạn có thể khám phá sự hào phóng của thiên
+            <p>Hạt dẻ của chúng tôi được sản xuất theo quy trình tự nhiên và giữ lại hương vị tuyệt vời, đồng thời giữ
+              lại tất cả các chất dinh dưỡng quan trọng mà dẻ tự nhiên mang lại. Với hương thơm dịu dàng và vị ngon
+              tuyệt vời, hạt dẻ là lựa chọn hoàn hảo để thưởng thức như một món ăn vặt, thêm vào các món salad, hoặc sử
+              dụng trong nấu ăn hàng ngày. </p>
+          </div>
+          <div class="tab-content" data-tab="info">
+            <p>
+              Chào mừng đến với thế giới của tự nhiên và hữu cơ. Ở đây bạn có thể khám phá sự hào phóng của thiên
               nhiên.
               Chúng tôi đã phát triển dựa trên các nguyên tắc về sức khỏe, sinh thái và chăm sóc. Chúng tôi mong muốn
               mang đến cho khách hàng một bữa ăn lành mạnh không chứa hóa chất để có được nguồn dinh dưỡng hoàn hảo.
               Nó cung cấp khoảng 8 đến 10% carbs.
-              Đường đơn - chẳng hạn như glucose và fructose - chiếm 70% và 80% lượng carbs trong nguyên liệu thô.</p>
-          </div>
-          <div class="tab-content" data-tab="info">
-            <p>Ngoài cam kết về sức khỏe và sinh thái, chúng tôi cũng ưu tiên tính bền vững trong phương pháp sản xuất
+              Đường đơn - chẳng hạn như glucose và fructose - chiếm 70% và 80% lượng carbs trong nguyên liệu thô.
+              Ngoài cam kết về sức khỏe và sinh thái, chúng tôi cũng ưu tiên tính bền vững trong phương pháp sản xuất
               của mình.
               Sản phẩm của chúng tôi có nguồn gốc từ các trang trại hữu cơ địa phương, giúp giảm lượng khí thải carbon
               và hỗ trợ nền kinh tế địa phương.
@@ -259,14 +262,14 @@
   </script>
 
 
-  <!-- ######################################### -->
+
   <!--                  JQUERY                   -->
-  <!-- ######################################### -->
+
   <!-- this will target the footer by Id #footer -->
   <div id="footer"></div>
-  <!-- jquery to trigger the Id #footer -->
+
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <!-- jquery script to make it trigger the header & footer -->
+
   <script>
     $(function () {
       $("#header").load("/partials/header.html");

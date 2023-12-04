@@ -1607,6 +1607,10 @@ input::selection {
   background-size: cover;
   margin-bottom: var(--size-7);
 }
+#logo{
+  width:auto;
+  height: 50px;
+}
 
 /* -------------------- End ------------------- */
 /* ############################################ */
@@ -1680,8 +1684,6 @@ input::selection {
     flex-wrap: wrap;
     gap: 0;
   }
+
 }
 
-/* ############################################ */
-/*         MEDIA QUIRE FOR Mobile 450PX        */
-/* ############################################ */
