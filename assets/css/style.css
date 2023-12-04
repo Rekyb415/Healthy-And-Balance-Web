@@ -128,9 +128,9 @@ p {
   font-size: var(--font-p);
 }
 
-/* ########################################## */
-/*                   2.ROOT                   */
-/* ########################################## */
+
+/*2.ROOT*/
+
 :root {
   /* ----------------- 2.1 Colors ----------------- */
   /* primary  */
@@ -207,9 +207,9 @@ p {
   color: var(--secondary-color-3);
 }
 
-/* ############################################ */
-/*                   5.HEADER                   */
-/* ############################################ */
+
+/*5.HEADER*/
+
 .header__main {
   align-items: center;
   padding-block: var(--size-2);
@@ -267,7 +267,7 @@ p {
   opacity: 1;
 }
 
-/* ------------------ Ends ------------------ */
+/*Ends*/
 .search {
   position: relative;
   margin-right: 1rem;
@@ -601,9 +601,9 @@ input::selection {
   }
 }
 
-/* ########################################## */
-/*                4.COMPONENTS                */
-/* ########################################## */
+
+/*4.COMPONENTS*/
+
 /* ------------------ 4.1 Buttons ----------------- */
 .xd__btn {
   display: flex;
@@ -637,9 +637,8 @@ input::selection {
   color: #fff;
 }
 
-/* ############################################ */
-/*                     HERO                     */
-/* ############################################ */
+/*HERO*/
+
 #hero {
   padding: 0;
 }
@@ -811,9 +810,9 @@ input::selection {
   color: var(--primary-color-2);
 }
 
-/* ############################################ */
-/*                     ABOUT                    */
-/* ############################################ */
+
+/*ABOUT*/
+
 #about {
   background-color: var(--secondary-color-1);
 }
@@ -857,9 +856,9 @@ input::selection {
   color: var(--primary-color-3);
 }
 
-/* ############################################ */
-/*                    PRODUCT                   */
-/* ############################################ */
+
+/*PRODUCT*/
+
 .product__title {
   text-align: center;
   margin-bottom: 2rem;
@@ -962,67 +961,11 @@ input::selection {
   pointer-events: none;
 }
 
-/* ############################################ */
-/*                  TESTIMONIAL                 */
-/* ############################################ */
-#testimonial {
-  position: relative;
-  background-image: url(/assets/graphics/Testimonial/Testimonial-bg.png);
-  background-size: cover;
-}
 
-@media (max-width: 450px) {
-  #testimonial {
-    background-position: 18%;
-  }
-}
 
-.testimonial__title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 2.5rem;
-  text-align: center;
-}
 
-.testimonial {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+/*CỬA HÀNG CHÚNG TÔI*/
 
-.testimonial img {
-  border-radius: 70px;
-  border: 5px solid var(--primary-color-3);
-}
-
-.testimonial h3 {
-  font-size: var(--font-subtitle);
-  color: var(--primary-color-1);
-}
-
-.testimonial p {
-  max-width: 60ch;
-  font-weight: 500;
-  color: #393939;
-  text-align: center;
-}
-
-.splide__pagination {
-  bottom: -1.5rem;
-}
-
-.splide__pagination__page {
-  background: var(--primary-color-4);
-}
-
-.splide__pagination__page.is-active {
-  background: #14a014;
-}
-
-/* ############################################ */
-/*                  WHO WE ARE                  */
-/* ############################################ */
 .who__Content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -1062,9 +1005,9 @@ input::selection {
   color: var(--primary-color-1);
 }
 
-/* ############################################ */
-/*                     BLOG                     */
-/* ############################################ */
+
+/*BLOG*/
+
 .blog__title {
   max-width: 65ch;
   padding-bottom: 2.5rem;
@@ -1141,9 +1084,9 @@ input::selection {
   justify-content: center;
 }
 
-/* ############################################ */
-/*                     ABOUT                    */
-/* ############################################ */
+
+/* VỀ CHÚNG TÔI*/
+
 .about__banner {
   background-image: url(../graphics/about-page/about-banner-bg.png);
 }
@@ -1198,9 +1141,9 @@ input::selection {
   }
 }
 
-/* ############################################ */
-/*                    WHY US                    */
-/* ############################################ */
+
+/*VÌ SAO NÊN CHỌN CHÚNG TÔI*/
+
 #why-us {
   background-color: var(--secondary-color-1);
 }
