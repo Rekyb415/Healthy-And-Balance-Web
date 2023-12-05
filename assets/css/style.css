@@ -1,6 +1,6 @@
-/* ############################################ */
-/*                    1.RESET                   */
-/* ############################################ */
+
+/*1.RESET*/
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -134,9 +134,9 @@ p {
 :root {
   /* ----------------- 2.1 Colors ----------------- */
   /* primary  */
-  --primary-color-1: #274c5b;
+  --primary-color-1: #44B0A0;
   --primary-color-2: #7eb693;
-  --primary-color-3: #274c5b;
+  --primary-color-3: #235c54;
   --primary-color-4: #d4d4d4;
   /* secondary */
   --secondary-color-1: #f9f8f8;
@@ -168,17 +168,17 @@ p {
   --size-10: clamp(20rem, 40vw, 30rem);
 }
 
-/* ########################################## */
+
 /*              3.CUSTOM CLASSES              */
-/* ########################################## */
-/* ------------------ Wrap ------------------ */
+
+/*Wrap*/
 .wrp {
   width: 85%;
   margin: 0 auto;
   max-width: 1440px;
 }
 
-/* ------------------ Flex ------------------ */
+/*Flex*/
 .flx {
   display: flex;
   align-items: center;
@@ -190,7 +190,7 @@ p {
   color: var(--primary-color-2);
 }
 
-/* ------------------- Title ------------------ */
+/*Title*/
 h2 {
   font-family: "Roboto";
   font-style: normal;
@@ -257,7 +257,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--primary-color-2);
+  background-color: var(--primary-color-4);
   padding-inline: 2rem;
   width: 200px;
   transition: opacity 0.3s ease-in-out 0.5s;
@@ -303,7 +303,7 @@ p {
 }
 
 .cart__items {
-  background: var(--primary-color-2);
+  background: var(--primary-color-1);
   width: 355px;
   padding-block: 1rem;
   position: absolute;
@@ -407,18 +407,18 @@ p {
   transform-origin: bottom left;
 }
 
-/* ############################################ */
-/*                    FOOTER                    */
-/* ############################################ */
-/* ############################################ */
-/*                   SUBSCRIBE                  */
-/* ############################################ */
+
+/*FOOTER*/
+
+
+/*SUBSCRIBE */
+
 #subscribe {
   padding-block: var(--size-7) var(--size-4);
 }
 
 .subscribe {
-  background-image: url(/assets/graphics/subscribe/subscribe-bg.png);
+  background-image: url(/assets/graphics/subscribe/surcise-farm-footer.jpg);
   background-repeat: no-repeat;
   border-radius: 16px;
   flex-wrap: wrap;
@@ -434,7 +434,7 @@ p {
 
 .subscribe h2 {
   max-width: 12ch;
-  color: #fff;
+  color: var(--primary-color-1);
   white-space: nowrap; /* Add this line */
 }
 
@@ -630,6 +630,9 @@ input::selection {
 .btn-primary {
   background-color: #efd372;
   color: var(--primary-color-1);
+
+
+
 }
 
 .btn-secondary {
@@ -644,10 +647,11 @@ input::selection {
 }
 
 .hero {
-  background-image: url("/assets/graphics/hero/Banner.jpg");
+  background-image: url("/assets/graphics/hero/Banner-1.jpeg");
   width: 100%;
   background-size: cover;
   background-position: 110px;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 960px) {
@@ -705,9 +709,9 @@ input::selection {
   object-fit: cover;
 }
 
-/* ############################################ */
-/*                     OFFER                    */
-/* ############################################ */
+
+/*OFFER */
+
 .offer {
   display: flex;
   gap: 3rem;
@@ -756,7 +760,7 @@ input::selection {
 }
 
 .offer__card p {
-  font-family: "Yellowtail";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: var(--font-4);
@@ -1522,7 +1526,7 @@ input::selection {
   -o-transition: 0.5s linear 0.1s;
 }
 
-/* ------------------ PRODUCT ----------------- */
+/*PRODUCT*/
 #single-product {
   padding-bottom: 0;
 }
@@ -1540,7 +1544,7 @@ input::selection {
   margin: 0 auto;
 }
 
-/* ----------- Banner For Every Page ---------- */
+/*Banner For Every Page*/
 .page__banner {
   display: flex;
   justify-content: center;
@@ -1556,10 +1560,9 @@ input::selection {
 }
 
 /* -------------------- End ------------------- */
-/* ############################################ */
-/*                 MEDIA QUIRES                 */
-/* ############################################ */
-/* media quires for responsive mobile header */
+
+/*MEDIA QUIRES*/
+
 @media only screen and (max-width: 1110px) {
   .hamburger {
     display: block;
@@ -1605,9 +1608,9 @@ input::selection {
   }
 }
 
-/* ############################################ */
-/*         MEDIA QUIRE FOR TABLET 950PX         */
-/* ############################################ */
+
+/*MEDIA QUIRE FOR TABLET 950PX */
+
 @media (max-width: 950px) {
 
   /* ------------------ Hero ------------------ */
