@@ -1,9 +1,10 @@
 .shop__banner {
-  background-image: url(../graphics/Shop-page/banner-shop.jpg);
+  background-image: url(../graphics/Shop-page/shop-Banner.png);
 }
 
 .shope img {
-  margin: 0 auto;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .product__rating {
@@ -11,5 +12,4 @@
 }
 .xd_subtitle {
   font-family: 'Roboto', sans-serif;
-  /* Add other font properties as needed */
 }

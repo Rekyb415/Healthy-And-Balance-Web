@@ -5,22 +5,13 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- -------------- Favicon -------------- -->
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/graphics/favicon/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/graphics/favicon//favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/graphics/favicon//favicon-16x16.png" />
-  <link rel="manifest" href="/site.webmanifest" />
-  <!-- ------------ Font-awesome ------------ -->
+  <!--ICON-->
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/graphics/favicon/logo.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/graphics/favicon//logo.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/graphics/favicon//logo.png" />
+  <!--Font-awesome-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-
-  <!-- ------------- Google Fonts -------------- -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700;900&family=Yellowtail&display=swap"
-    rel="stylesheet" />
-
-  <!-- --------------- Main Css ---------------- -->
+  <!--Main Css-->
   <link rel="stylesheet" href="./assets/css/style.css" />
   <link rel="stylesheet" href="./assets/css/contact.css" />
   <title> Liên Hệ</title>
@@ -28,25 +19,20 @@
 
 <body>
   <div id="header"></div>
-
   <div class="page__banner contact__banner">
     <h2>Liên Hệ</h2>
   </div>
-
   <main class="wrp">
     <div class="contact__grid">
       <div class="contact__left">
-        <!-- <p class="xd_subtitle">location</p> -->
         <h2>Trang trại của chúng tôi</h2>
         <p>
           Ngoài các trang trại của những người nông dân, chúng tôi cũng có trang trại riêng và được chăm sóc một cách
           nghiêm ngặt cho ra những sản phẩm chất lượng nhất
         </p>
-
         <div class="contact__location">
           <span class="flx">
             <img src="/assets/graphics/contact-page/locqation-Icon.png" alt="" />
-
             <p>
               <strong>Thủ Đức, Hồ Chí Minh:</strong>
               <br />
@@ -55,7 +41,6 @@
               Hồ Chí Minh 10171
             </p>
           </span>
-
           <span class="flx">
             <img src="/assets/graphics/contact-page/locqation-Icon.png" alt="" />
             <p>
@@ -68,7 +53,6 @@
           </span>
         </div>
       </div>
-
       <div class="contact__right">
         <div class="contact__title">
           <h2>Kết nối</h2>
@@ -77,7 +61,6 @@
             với chúng tôi
           </p>
         </div>
-
         <div class="contact__detail">
           <span>
             <img src="/assets/graphics/contact-page/contact-icon.svg" alt="" />
@@ -96,7 +79,6 @@
             </p>
           </span>
         </div>
-
         <div class="footer__soical contact__social">
           <i class="fa fa-instagram" aria-hidden="true"></i>
           <i class="fa fa-facebook-official" aria-hidden="true"></i>
@@ -106,11 +88,10 @@
       </div>
     </div>
 
-    <!-- ---------- Contact Form ----------- -->
+    <!--FORM LIÊN HỆ-->
     <section>
-      <!-- CONTACT FORM -->
+      <!--FORM LIÊN HỆ-->
       <div class="contact">
-
 
         <form id="contact-form">
 
@@ -126,10 +107,8 @@
 
           <p>
             <label>Công Ty</label>
-            <input type="text" name="company" id="company" placeholder="yourcompany name here">
+            <input type="text" name="company" id="company" placeholder="Tên công ty của bạn">
           </p>
-
-
 
           <p>
             <label>Tiêu đề</label>
@@ -148,25 +127,14 @@
           </p>
 
         </form>
-        <!-- End #contact-form -->
       </div>
-      <!-- End .contact -->
 
     </section>
   </main>
 
-  <!-- ------------ Custom Js ------------- -->
   <script src="./assets/js/script.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-
-  <!--JQUERY-->
-
-  <!-- this will target the footer by Id #footer -->
   <div id="footer"></div>
-  <!-- jquery to trigger the Id #footer -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <!-- jquery script to make it trigger the header & footer -->
   <script>
     $(function () {
       $("#header").load("/partials/header.html");

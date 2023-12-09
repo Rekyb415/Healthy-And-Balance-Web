@@ -1,8 +1,8 @@
-/* ############################################ */
+
 /*                     ABOUT                    */
-/* ############################################ */
+
 .about__banner {
-  background-image: url(../graphics/about-page/banner-about.jpeg);
+  background-image: url(../graphics/about-page/about-banner.jpg);
 }
 
 .about__grid {

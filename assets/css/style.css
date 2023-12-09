@@ -1,47 +1,29 @@
 
-/*1.RESET*/
-
-/*
-  1. Use a more-intuitive box-sizing model.
-*/
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/*
-    2. Remove default margin
-  */
+
 * {
   margin: 0;
 }
 
-/*
-    3. Allow percentage-based heights in the application
-  */
+
 html,
 body {
   height: 100%;
 }
 
-/*
-    Typographic tweaks!
-    4. Add accessible line-height
-    5. Improve text rendering
-  */
+
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: "Roboto", sans-serif;
-  /* font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Yellowtail', cursive; */
 }
 
-/*
-    6. Improve media defaults
-  */
+
 img,
 picture,
 video,
@@ -51,9 +33,7 @@ svg {
   max-width: 100%;
 }
 
-/*
-    7. Remove built-in form typography styles
-  */
+
 input,
 button,
 textarea,
@@ -61,9 +41,7 @@ select {
   font: inherit;
 }
 
-/*
-    8. Avoid text overflows
-  */
+
 p,
 h1,
 h2,
@@ -74,15 +52,13 @@ h6 {
   overflow-wrap: break-word;
 }
 
-/*
-    9. Create a root stacking context
-  */
+
 #root,
 #__next {
   isolation: isolate;
 }
 
-/* ------------- 1.1 custom Reset ------------ */
+
 a {
   text-decoration: none;
   color: inherit;
@@ -103,7 +79,7 @@ section {
   padding-block: var(--size-7);
 }
 
-/* --------------- Font Sizes --------------- */
+
 h1 {
   font-size: var(--font-1);
 }
@@ -132,17 +108,17 @@ p {
 /*2.ROOT*/
 
 :root {
-  /* ----------------- 2.1 Colors ----------------- */
-  /* primary  */
+  /*2.1 Colors*/
+  /*primary*/
   --primary-color-1: #44B0A0;
   --primary-color-2: #7eb693;
   --primary-color-3: #235c54;
   --primary-color-4: #d4d4d4;
-  /* secondary */
+  /*secondary*/
   --secondary-color-1: #f9f8f8;
   --secondary-color-2: #eff6f1;
   --secondary-color-3: #525c60;
-  /* ------------------ 2.2 Fonts ----------------- */
+  /*2.2 Fonts*/
   --font-1: clamp(2.25rem, calc(1.83rem + 2.13vw), 4.38rem);
   /* 70px */
   --font-2: clamp(1.75rem, calc(1.48rem + 1.38vw), 3.13rem);
@@ -155,7 +131,7 @@ p {
   /* subtitle 24px */
   --font-p: 1.1rem;
   /* paragraph  18px */
-  /* ------------------ 2.3 sizes ----------------- */
+  /*sizes*/
   --size-1: clamp(0.5rem, 1vw, 1rem);
   --size-2: clamp(1rem, 2vw, 1.5rem);
   --size-3: clamp(1.5rem, 3vw, 2rem);
@@ -168,17 +144,12 @@ p {
   --size-10: clamp(20rem, 40vw, 30rem);
 }
 
-
-/*              3.CUSTOM CLASSES              */
-
-/*Wrap*/
 .wrp {
   width: 85%;
   margin: 0 auto;
   max-width: 1440px;
 }
 
-/*Flex*/
 .flx {
   display: flex;
   align-items: center;
@@ -190,7 +161,6 @@ p {
   color: var(--primary-color-2);
 }
 
-/*Title*/
 h2 {
   font-family: "Roboto";
   font-style: normal;
@@ -206,7 +176,6 @@ p {
   line-height: 165.4%;
   color: var(--secondary-color-3);
 }
-
 
 /*5.HEADER*/
 
@@ -241,7 +210,6 @@ p {
   font-size: 14px;
 }
 
-/* ---------------- .dropdown --------------- */
 .dropdown {
   position: relative;
 }
@@ -267,7 +235,6 @@ p {
   opacity: 1;
 }
 
-/*Ends*/
 .search {
   position: relative;
   margin-right: 1rem;
@@ -355,7 +322,6 @@ p {
 .cart__btn {
   display: flex;
   align-items: center;
-  /* justify-content: space-around; */
   flex-direction: column;
   gap: 1rem;
 }
@@ -409,10 +375,6 @@ p {
 
 
 /*FOOTER*/
-
-
-/*SUBSCRIBE */
-
 #subscribe {
   padding-block: var(--size-7) var(--size-4);
 }
@@ -431,11 +393,10 @@ p {
   background-size: cover;
   padding: var(--size-5);
 }
-
 .subscribe h2 {
   max-width: 12ch;
   color: var(--primary-color-1);
-  white-space: nowrap; /* Add this line */
+  white-space: nowrap; 
 }
 
 @media (max-width: 450px) {
@@ -602,9 +563,9 @@ input::selection {
 }
 
 
-/*4.COMPONENTS*/
+/*COMPONENTS*/
 
-/* ------------------ 4.1 Buttons ----------------- */
+/*Buttons*/
 .xd__btn {
   display: flex;
   align-items: center;
@@ -630,9 +591,6 @@ input::selection {
 .btn-primary {
   background-color: #efd372;
   color: var(--primary-color-1);
-
-
-
 }
 
 .btn-secondary {
@@ -641,7 +599,6 @@ input::selection {
 }
 
 /*HERO*/
-
 #hero {
   padding: 0;
 }
@@ -816,7 +773,6 @@ input::selection {
 
 
 /*ABOUT*/
-
 #about {
   background-color: var(--secondary-color-1);
 }
@@ -882,7 +838,7 @@ input::selection {
 
 .product__list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(4, minmax(200px, 1fr));
   gap: 2rem;
   margin-block: 2rem;
 }
@@ -1203,7 +1159,7 @@ input::selection {
   color: var(--primary-color-1);
 }
 
-/* ---------- Organic Store Services ---------- */
+/*DỊCH VỤ*/
 .organic__title {
   display: flex;
   flex-direction: column;
@@ -1358,7 +1314,7 @@ input::selection {
 }
 
 .shop__banner {
-  background-image: url(/assets/graphics/Shop-page/shop-Banner.png);
+  background-image: url(/assets/graphics/Shop-page/banner-shop.jpg);
 }
 
 .shope img {
@@ -1445,7 +1401,6 @@ input::selection {
 }
 
 .qty__btn {
-  /* hide spin buttons for numeric inputs */
   padding: 1rem;
   background-color: #fff;
   border-radius: 16px;
@@ -1472,7 +1427,7 @@ input::selection {
   text-align: center;
 }
 
-/* -------------------Product Tabs ------------------- */
+/*TAB*/
 .product__tabs {
   padding-bottom: 5rem;
 }
@@ -1526,7 +1481,7 @@ input::selection {
   -o-transition: 0.5s linear 0.1s;
 }
 
-/*PRODUCT*/
+/*SẢN PHẨM*/
 #single-product {
   padding-bottom: 0;
 }
@@ -1559,7 +1514,6 @@ input::selection {
   height: 50px;
 }
 
-/* -------------------- End ------------------- */
 
 /*MEDIA QUIRES*/
 
@@ -1613,14 +1567,14 @@ input::selection {
 
 @media (max-width: 950px) {
 
-  /* ------------------ Hero ------------------ */
+  /*Hero*/
   .hero__graphic img {
     width: 551px;
     object-fit: cover;
     margin: 0 auto;
   }
 
-  /* ------------------ About ----------------- */
+  /*About*/
   .about__graphic {
     order: 2;
     width: var(--size-10);

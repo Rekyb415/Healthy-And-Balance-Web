@@ -1,5 +1,5 @@
 
-/* ----------------- Load more products ----------------- */
+/*Load more products*/
 document.addEventListener("DOMContentLoaded", function() {
   $(".content").slice(0, 4).show();
   $("#loadMore").on("click", function(e) {
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-/* ---------------- Cart Quantity Js --------------- */
+/*Cart Quantity Js*/
  // get the input element
  const input = document.querySelector('.product-qty');
 
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
    }
  });
 
- /* ------------------- Tabs ------------------ */
+ /*Tabs*/
  const tabLinks = document.querySelectorAll(".tab-link");
  const tabContents = document.querySelectorAll(".tab-content");
  
@@ -58,5 +58,8 @@ document.addEventListener("DOMContentLoaded", function() {
        }
      });
    });
+   
  });
+
+
  

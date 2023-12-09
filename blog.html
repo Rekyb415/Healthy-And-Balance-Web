@@ -5,22 +5,11 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- -------------- Favicon -------------- -->
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/graphics/favicon/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/graphics/favicon//favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/graphics/favicon//favicon-16x16.png" />
-  <link rel="manifest" href="/site.webmanifest" />
-  <!-- ------------ Font-awsome ------------ -->
+  <!--ICON-->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/graphics/favicon//logo.png" />
+  <!--Font-awsome-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-
-  <!-- ------------- Google Fonts -------------- -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700;900&family=Yellowtail&display=swap"
-    rel="stylesheet" />
-
-  <!-- --------------- Main Css ---------------- -->
+  <!--Main Css-->
   <link rel="stylesheet" href="./assets/css/style.css" />
   <link rel="stylesheet" href="./assets/css/shope.css" />
   <title> Bài Viết </title>
@@ -28,39 +17,27 @@
 
 <body>
   <div id="header"></div>
-
-
   <div class="page__banner blog__banner">
     <h2>Bài Viết Gần Đây</h2>
   </div>
-
   <main>
-
-
-
     <!--BLOG -->
-
-
     <section id="blog" class="wrp">
       <div class="blog__title">
         <p></p>
         <h2></h2>
       </div>
-
       <div class="blog__content blog__page-content">
-
-        <!-- ------------ Blog Post 1 ------------ -->
+        <!--Blog 1-->
         <div class="blog__post post-1">
           <p class="blog-tag">25 Nov</p>
           <div class="blog__detial">
-
             <span class="blog__author">
               <i class="fa fa-user" aria-hidden="true"></i>
               <a href="">
                 <p>viết bởi Kim Oanh</p>
               </a>
             </span>
-
             <h3>Lợi ích của Vitamin D</h3>
             <p>Vitamin D là một loại vitamin quan trọng đối với sức khỏe tổng thể của con người...</p>
             <a href="#" class="xd__btn btn-primary">Xem thêm
@@ -68,7 +45,7 @@
             </a>
           </div>
         </div>
-        <!-- -------------- Blog Post 2 -------------- -->
+        <!--Blog 2-->
         <div class="blog__post post-2">
           <p class="blog-tag">25 Nov</p>
           <div class="blog__detial">
@@ -84,7 +61,7 @@
           </div>
         </div>
 
-        <!-- ------------ Blog Post 3 ------------ -->
+        <!--Blog 3-->
         <div class="blog__post post-3">
           <p class="blog-tag">25 Nov</p>
           <div class="blog__detial">
@@ -105,7 +82,7 @@
         </div>
 
 
-        <!-- ------------ Blog Post 4 ------------ -->
+        <!--Blog 4-->
         <div class="blog__post post-4">
           <p class="blog-tag">25 Nov</p>
           <div class="blog__detial">
@@ -127,7 +104,7 @@
 
 
 
-        <!-- ------------ Blog Post 5 ------------ -->
+        <!--Blog 5-->
         <div class="blog__post post-5">
           <p class="blog-tag">25 Nov</p>
           <div class="blog__detial">
@@ -147,19 +124,16 @@
           </div>
         </div>
 
-
-        <!-- ------------ Blog Post 6 ------------ -->
+        <!--Blog 6-->
         <div class="blog__post post-6">
           <p class="blog-tag">25 Nov</p>
           <div class="blog__detial">
-
             <span class="blog__author">
               <i class="fa fa-user" aria-hidden="true"></i>
               <a href="">
                 <p>Viết bởi Uyển Nhi</p>
               </a>
             </span>
-
             <h3>Lợi ích của Vitamin A</h3>
             <p>Vitamin A có rất nhiều lợi ích như duy trì thị lực, hệ miễn dịch, tăng trưởng cơ thể...</p>
             <a href="#" class="xd__btn btn-primary">Xem thêm
@@ -167,46 +141,13 @@
             </a>
           </div>
         </div>
-
-
-
-
-
-
-
       </div>
     </section>
 
   </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- ------------ Custom Js ------------- -->
   <script src="./assets/js/script.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-
-
-  <!--JQUERY-->
-  <!-- this will target the footer by Id #footer -->
   <div id="footer"></div>
-  <!-- jquery to trigger the Id #footer -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <!-- jquery script to make it trigger the header & footer -->
   <script>
     $(function () {
       $("#header").load("/partials/header.html");
